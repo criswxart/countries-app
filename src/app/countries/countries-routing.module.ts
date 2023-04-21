@@ -20,13 +20,13 @@ const routes: Routes = [
         component:  ByCapitalPageComponent
     },
     {
-        path: 'country/id',
+        path: 'by/:id',
         component: CountryPageComponent
     },
     {
       path: '**',
       redirectTo: 'capital'
-  }
+    }
 ]
 
 @NgModule({
